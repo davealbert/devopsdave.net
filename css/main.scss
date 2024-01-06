@@ -1,0 +1,62 @@
+---
+# Front Matter to ensure Jekyll properly processes the file
+---
+
+body, h1, h2, h3, h4, h5, h6, p, blockquote, pre, hr, dl, dd, ol, ul, figure {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+
+    //font: 400 16px/1.5 helvetica neue, Helvetica, Arial, sans-serif;
+    color: #111;
+    background-color: #fdfdfd;
+    -webkit-text-size-adjust: 100%;
+    -webkit-font-feature-settings: "kern" 1;
+    -moz-font-feature-settings: "kern" 1;
+    -o-font-feature-settings: "kern" 1;
+    font-feature-settings: "kern" 1;
+    font-kerning: normal;
+}
+
+
+.main-content {
+    margin: 3em;
+}
+
+
+.nav-ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.nav-li {
+    float: left;
+    padding: 0.5em;
+}
+
+a .nav-a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.about-para-div {
+    margin: 3em;
+}
+
+.logo-hero-div {
+    width: 30em;
+    margin-bottom: 2em;
+}
+
+.content-wrapper > a {
+    font-size: large;
+    font-weight: bold;
+} 

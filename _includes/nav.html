@@ -1,0 +1,7 @@
+<ul class="nav-ul" >
+    {% for nav in site.data.navigation %}
+    <li class="nav-li" >
+        <a  class="nav-a " href="{{ nav.url | prepend: site.baseurl }}">{{ nav.title }}</a>
+    </li>
+    {% endfor %}
+</ul>
