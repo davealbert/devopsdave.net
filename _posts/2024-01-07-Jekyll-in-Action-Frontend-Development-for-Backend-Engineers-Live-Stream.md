@@ -64,8 +64,6 @@ layout: post
 
 
 
-
-TODO TODO TODO TODO TODO TODO TODO TODO TODO TODO TODO TODO TODO TODO TODO TODO TODO TODO TODO TODO 
 <div class="content-wrapper">
     <h1>The Streams</h1>
 
@@ -73,8 +71,8 @@ TODO TODO TODO TODO TODO TODO TODO TODO TODO TODO TODO TODO TODO TODO TODO TODO 
         <div class="embed-title"><h1>Kick</h1></div>
 
         <div class="embed">
-            <a href="https://kick.com/video/da11e2b2-3928-47f7-81ba-a33a4b5e4e6a" target="_blank">
-                <img src="https://images.kick.com/video_thumbnails/QXi6QSVtOH5v/5Swmx1X4Ak76/360.webp">
+            <a href="https://kick.com/video/ecd8c6fe-3e00-4e84-aa16-1430e12203c5" target="_blank">
+                <img src="https://images.kick.com/video_thumbnails/QXi6QSVtOH5v/uRIixaxEX2h3/360.webp">
             </a>
         </div>
     </div>
@@ -83,7 +81,7 @@ TODO TODO TODO TODO TODO TODO TODO TODO TODO TODO TODO TODO TODO TODO TODO TODO 
         <div class="embed-title"><h1>YouTube</h1></div>
 
         <div class="embed">
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/gGHANEBbkj4?si=hAQ769khChtWOCib&amp;start=270" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/svTcLxZSUYo?si=_uP4IvVN6_PWCBcy&amp;start=110" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
         </div>
     </div>
 </div>
