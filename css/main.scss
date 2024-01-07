@@ -52,6 +52,7 @@ a.nav-a, a.nav-a:visited {
     padding: 14px 16px;
     text-decoration: none;
     font-weight: semi-bold;
+    text-shadow: 0px 1px 1px $my-black-faded;
 }
 
 .about-para-div {
@@ -74,7 +75,7 @@ header {
         justify-content: space-between;
         align-items: center;
         margin: 4rem;
-        border-bottom: rgba(59, 59, 59, 0.25) 2px solid;
+        border-bottom: $my-black-faded 2px solid;
         padding-bottom: 1rem;
     }
 }
@@ -144,7 +145,7 @@ ul.blog-list-items {
 
     .footer {
         margin: 4rem;
-        border-top: rgba(59, 59, 59, 0.25) 2px solid;
+        border-top: $my-black-faded 2px solid;
         padding-top: 1rem;
         display: flex;
         justify-content: space-between;
@@ -164,6 +165,9 @@ ul.blog-list-items {
             .footer-right-item {
                 margin: 0rem 1rem 0rem 1rem;
             }
+        }
+        i {
+            text-shadow: 0px 1.5px 1.5px $my-black-faded;
         }
     }
 }
@@ -300,4 +304,11 @@ ul.blog-list-items {
 
 .hidden {
     display: none;
+}
+
+.footer-copyright {
+    font-size: smaller;
+    color: $my-black-faded;
+    font-style: italic;
+    text-align: center;
 }
