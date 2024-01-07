@@ -2,6 +2,7 @@
 title: About
 layout: page
 permalink: /about/
+hero_image: /images/hero-about.jpg
 ---
 
 <div class="about-para-div"><p>Welcome to DevOps Dave – your dynamic hub for exploring the world of DevOps, Platform Engineering, DataOps, SRE, and more. Whether you're a budding software engineer or a seasoned pro diving into these exciting fields, this channel offers a wealth of knowledge, practical tips, and community-driven discussions.</p></div>
