@@ -18,46 +18,46 @@ post_image: /images/blog-posts/2024-01-06.jpg
 <div class="content-wrapper">
     <h1>Topics Covered</h1>
     <div class="wrapper">
-        <ul class="xtask-list">
-        <li class="xtask-list-item">
-            <p><input type="checkbox" class="xtask-list-item-checkbox" disabled="disabled" checked="checked">Setup  GitHub</p>
+        <ul class="task-list">
+        <li class="task-list-item">
+            <p><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" checked="checked">Setup  GitHub</p>
         </li>
-        <li class="xtask-list-item"><input type="checkbox" class="xtask-list-item-checkbox" disabled="disabled" checked="checked">Jekyll App
-            <ul class="xtask-list">
-            <li class="xtask-list-item"><input type="checkbox" class="xtask-list-item-checkbox" disabled="disabled" checked="checked">jekyll new . –force</li>
-            <li class="xtask-list-item"><input type="checkbox" class="xtask-list-item-checkbox" disabled="disabled" checked="checked">bundle install</li>
-            <li class="xtask-list-item"><input type="checkbox" class="xtask-list-item-checkbox" disabled="disabled" checked="checked">bundle exec jekyll serve –watch</li>
+        <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" checked="checked">Jekyll App
+            <ul class="task-list">
+            <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" checked="checked">jekyll new . –force</li>
+            <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" checked="checked">bundle install</li>
+            <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" checked="checked">bundle exec jekyll serve –watch</li>
             </ul>
         </li>
-        <li class="xtask-list-item"><input type="checkbox" class="xtask-list-item-checkbox" disabled="disabled" checked="checked">Setup CloudFlair Pages</li>
-        <li class="xtask-list-item"><input type="checkbox" class="xtask-list-item-checkbox" disabled="disabled" checked="checked">Push to GitHub</li>
-        <li class="xtask-list-item"><input type="checkbox" class="xtask-list-item-checkbox" disabled="disabled" checked="checked">Check dev domain – Didn’t workinitially because of SSL</li>
-        <li class="xtask-list-item">
-            <p><input type="checkbox" class="xtask-list-item-checkbox" disabled="disabled" checked="checked">Setup CloudFlair DNS devopsdave.net</p>
+        <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" checked="checked">Setup CloudFlair Pages</li>
+        <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" checked="checked">Push to GitHub</li>
+        <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" checked="checked">Check dev domain – Didn’t workinitially because of SSL</li>
+        <li class="task-list-item">
+            <p><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" checked="checked">Setup CloudFlair DNS devopsdave.net</p>
         </li>
-        <li class="xtask-list-item"><input type="checkbox" class="xtask-list-item-checkbox" disabled="disabled" checked="checked">Work on actual website
-            <ul class="xtask-list">
-            <li class="xtask-list-item"><input type="checkbox" class="xtask-list-item-checkbox" disabled="disabled" checked="checked">layout
-                <ul class="xtask-list">
-                <li class="xtask-list-item"><input type="checkbox" class="xtask-list-item-checkbox" disabled="disabled" checked="checked">default.html</li>
-                <li class="xtask-list-item"><input type="checkbox" class="xtask-list-item-checkbox" disabled="disabled" checked="checked">p404.html moved to /404.html</li>
-                <li class="xtask-list-item"><input type="checkbox" class="xtask-list-item-checkbox" disabled="disabled" checked="checked">page.html</li>
-                <li class="xtask-list-item"><input type="checkbox" class="xtask-list-item-checkbox" disabled="disabled" checked="checked">post.html</li>
+        <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" checked="checked">Work on actual website
+            <ul class="task-list">
+            <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" checked="checked">layout
+                <ul class="task-list">
+                <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" checked="checked">default.html</li>
+                <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" checked="checked">p404.html moved to /404.html</li>
+                <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" checked="checked">page.html</li>
+                <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" checked="checked">post.html</li>
                 </ul>
             </li>
-            <li class="xtask-list-item"><input type="checkbox" class="xtask-list-item-checkbox" disabled="disabled" checked="checked">includes
-                <ul class="xtask-list">
-                <li class="xtask-list-item"><input type="checkbox" class="xtask-list-item-checkbox" disabled="disabled" checked="checked">head.html</li>
-                <li class="xtask-list-item"><input type="checkbox" class="xtask-list-item-checkbox" disabled="disabled" checked="checked">header.html</li>
-                <li class="xtask-list-item"><input type="checkbox" class="xtask-list-item-checkbox" disabled="disabled" checked="checked">nav.html</li>
-                <li class="xtask-list-item"><input type="checkbox" class="xtask-list-item-checkbox" disabled="disabled" checked="checked">body.html</li>
-                <li class="xtask-list-item"><input type="checkbox" class="xtask-list-item-checkbox" disabled="disabled" checked="checked">footer.html</li>
+            <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" checked="checked">includes
+                <ul class="task-list">
+                <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" checked="checked">head.html</li>
+                <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" checked="checked">header.html</li>
+                <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" checked="checked">nav.html</li>
+                <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" checked="checked">body.html</li>
+                <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" checked="checked">footer.html</li>
                 </ul>
             </li>
-            <li class="xtask-list-item"><input type="checkbox" class="xtask-list-item-checkbox" disabled="disabled" checked="checked">css</li>
-            <li class="xtask-list-item"><input type="checkbox" class="xtask-list-item-checkbox" disabled="disabled" checked="checked">js</li>
-            <li class="xtask-list-item"><input type="checkbox" class="xtask-list-item-checkbox" disabled="disabled" checked="checked">pages</li>
-            <li class="xtask-list-item"><input type="checkbox" class="xtask-list-item-checkbox" disabled="disabled" checked="checked">posts</li>
+            <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" checked="checked">css</li>
+            <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" checked="checked">js</li>
+            <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" checked="checked">pages</li>
+            <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" checked="checked">posts</li>
             </ul>
         </li>
         </ul>
