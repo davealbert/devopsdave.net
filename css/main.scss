@@ -19,11 +19,12 @@ body {
     -o-font-feature-settings: "kern" 1;
     font-feature-settings: "kern" 1;
     font-kerning: normal;
+    font-size: 1.4em;
 }
 
 
 .main-content {
-    margin: 3em;
+    margin: 3rem;
 }
 
 
@@ -36,7 +37,7 @@ body {
 
 .nav-li {
     float: left;
-    padding: 0.5em;
+    padding: 0.5rem;
 }
 
 a .nav-a {
@@ -48,15 +49,60 @@ a .nav-a {
 }
 
 .about-para-div {
-    margin: 3em;
+    margin: 3rem;
 }
 
 .logo-hero-div {
-    width: 30em;
-    margin-bottom: 2em;
+    width: 30rem;
+    margin-bottom: 2rem;
 }
 
 .content-wrapper > a {
     font-size: large;
     font-weight: bold;
 } 
+
+header {
+     .wrapper {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: 4rem;
+        border-bottom: rgba(59, 59, 59, 0.25) 2px solid;
+        padding-bottom: 1rem;
+    }
+}
+
+.content-wrapper {
+    margin: 4rem 0rem 4rem 0rem;
+}
+.content-wrapper {
+    display: block;
+    width: 100%;   
+    .hero-wrapper {
+        display: block;
+        width: 100%;
+        margin-bottom: 3rem;
+        .hero {
+            display: block;
+            width: 100%;   
+
+            img {
+                width: 100%;
+                max-width: 100%;
+            }
+        }
+    }
+}
+
+
+.embed-wrapper{
+    width: 100%;
+    margin: 2rem;
+    .embed-title {
+        width: 100%;
+    }
+    .embed {
+        max-width: 25%;
+    }
+}
