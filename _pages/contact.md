@@ -9,7 +9,7 @@ hero_image: /images/hero-contact.jpg
     <div class="about-para-div"><p>Feel free to reach out to me on any of the following platforms</p></div>
     <div class="about-para-div">
         <p>
-            <a href="https://discord.gg/BAdpZnkPV2" target="_blank"><i class="fa-fw fa-brands fa-discord"></i> Discord</a><br />
+            <a href="https://DevoOsDave.net/discord" target="_blank"><i class="fa-fw fa-brands fa-discord"></i> Discord</a><br />
         </p>
         <p>
             <a href="https://www.youtube.com/@devopsdave" target="_blank"><i class="fa-fw fa-brands fa-youtube"></i> YouTube</a><br />
