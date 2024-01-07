@@ -2,6 +2,11 @@
 # Front Matter to ensure Jekyll properly processes the file
 ---
 
+$my-yellow: #ebab1f;
+
+$my-black: #3b3b3b;
+$my-black-faded: #3b3b3b88;
+
 body, h1, h2, h3, h4, h5, h6, p, blockquote, pre, hr, dl, dd, ol, ul, figure {
     margin: 0;
     padding: 0;
@@ -42,7 +47,7 @@ body {
 
 a.nav-a, a.nav-a:visited {
     display: block;
-    color: rgb(235 171 31);
+    color: $my-yellow;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
@@ -111,7 +116,7 @@ header {
 }
 
 a, a:visited {
-    color: rgb(235 171 31);
+    color: $my-yellow;
     text-decoration: none;
 }
 
@@ -187,4 +192,112 @@ ul.blog-list-items {
 .content-indent {
     margin-left: 4rem;
     margin-right: 4rem;
+}
+
+.footer-links {
+    // Make the list horizontal instead of vertical
+    // display: flex;
+    // flex-direction: row;
+    // justify-content: space-between;
+    // align-items: center;
+    
+    float: left;
+    ul {
+        float: left;
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        text-align: center;
+        li {
+            text-align: center;
+            float: left;
+            margin: 1rem;
+            text-align: center;           
+        }        
+    }
+}
+
+
+
+.outer-container {
+    // height: 100%;
+    // width: 100%;
+    border-radius: 2rem;
+    max-width: 540px;
+    // background-color: $my-black;
+    .contact-container {        
+        margin: auto;
+        //width: 75%;
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: normal;
+        line-height: normal;
+        font-size: 20px;
+        letter-spacing: 0.08em;
+        // background: url("/images/contact-bg.jpg") no-repeat;
+        background-size: 100%;
+        color: $my-yellow;
+        padding: 40px;
+        form {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            align-items: center;
+        }
+        label {
+            text-shadow: 0px 4px 4px $my-black-faded;
+        }
+        .form-group {
+            margin-top: 1rem;
+        }
+        input {
+            height: 61px;
+        }
+        textarea {
+            height: 213px;
+        }
+        textarea, input {
+            background-color: #ffffff0f;
+            width: 408px;
+            border: 1px solid #676767;
+            max-width: 90%;
+            color: #ffffff;
+            padding: 0 1em;
+        }
+        .submit {
+            margin-top: 20px;
+            width: 408px;
+            height: 61px;
+            left: 39px;
+            top: 973px;
+            background: $my-yellow;
+            font-family: Roboto;
+            font-style: normal;
+            font-weight: normal;
+            line-height: normal;
+            font-size: 20px;
+            letter-spacing: 0.08em;
+            color: #FFFFFF;
+            max-width: 90%;
+            border: 2px solid $my-black-faded;
+            border-radius: 2rem;
+        }
+        .buttons {
+            margin-top: 50px;
+            .button-container {
+                a img {
+                    margin: 10px;
+                }
+            }
+        }
+        .subscribe {
+            .open-modal  img {
+                width: 200px;
+            }
+        }
+    }
+}
+
+.hidden {
+    display: none;
 }

@@ -12,3 +12,8 @@ hero_image: /images/hero-about.jpg
 <div class="about-para-div"><p>At DevOps Dave, we believe learning should be interactive and enjoyable, much like a vibrant tech meetup. We're here to help you navigate your career path in DevOps, Platform Engineering, and SRE, with content that's accessible, engaging, and always community-focused.</p></div>
 
 <div class="about-para-div"><p>Subscribe and join our Discord server to be part of a growing community where questions, debates, and collaboration are not just welcomed but encouraged. Let's grow, learn, and succeed together in the ever-evolving world of technology!</p></div>
+
+<h1>Join the Community</h1>
+<div class="about-para-div">
+    I invite you to subscribe/follow my <a href="https://www.youtube.com/@devopsdave" target="_blank">YouTube</a> channel and/or my <a href="https://kick.com/devopsdave" target="_blank">Kick</a> channel and join our growing <a href="https://discord.gg/BAdpZnkPV2" target="_blank">Discord</a>.
+</div>
