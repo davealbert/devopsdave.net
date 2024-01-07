@@ -43,7 +43,7 @@ layout: default
         </div>
         <h1>Join the Community</h1>
         <div class="content-wrapper">
-            I invite you to subscribe/follow my <a href="https://www.youtube.com/@devopsdave" target="_blank">YouTube</a> channel and/or my <a href="https://kick.com/devopsdave" target="_blank">Kick</a> channel and join our growing <a href="https://discord.gg/BAdpZnkPV2" target="_blank">Discord</a>.
+            I invite you to subscribe/follow my <a href="https://www.youtube.com/@devopsdave" target="_blank">YouTube</a> channel and/or my <a href="https://kick.com/devopsdave" target="_blank">Kick</a> channel and join our growing <a href="https://DevOpsDave.net/discord" target="_blank">Discord</a>.
         </div>
     </div>
 </div>
