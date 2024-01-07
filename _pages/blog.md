@@ -4,10 +4,13 @@ title: Blog
 permalink: /blog/
 ---
 
-<ul>
+<ul class="blog-list-items">
   {% for post in site.posts %}
-    <li>
-      <a href="{{ post.url }}">{{ post.title }}</a>
+    <li class="blog-list-items">
+      <a href="{{ post.url }}">{{ post.title }}</a> ~ {{ post.date | date_to_string }}
+      <p>
+        {{ post.description }}
+      </p>
     </li>
   {% endfor %}
 </ul>

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "I lived stream the building of this site"
-
+description: "Live stream of building this site with Jekyll and Cloudflare Pages"
 ---
 
 

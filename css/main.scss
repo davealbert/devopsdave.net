@@ -40,12 +40,13 @@ body {
     padding: 0.5rem;
 }
 
-a .nav-a {
+a.nav-a, a.nav-a:visited {
     display: block;
-    color: white;
+    color: rgb(235 171 31);
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
+    font-weight: semi-bold;
 }
 
 .about-para-div {
@@ -106,5 +107,23 @@ header {
     }
     .embed {
         max-width: 25%;
+    }
+}
+
+a, a:visited {
+    color: rgb(235 171 31);
+    text-decoration: none;
+}
+
+.top-margin-blog-post {
+    margin-top: 2rem;
+}
+
+ul.blog-list-items {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    li {
+        margin: 2rem;
     }
 }
