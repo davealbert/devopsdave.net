@@ -1,6 +1,5 @@
 ---
 title: Jekyll in Action Frontend Development for Backend Engineers
-permalink: /jekyll-in-action-frontend-development-for-backend-engineers/
 layout: post
 description: A live coding session where we dive into a Jekyll website and frontend development from a backend engineer's perspective. 🚀👨‍💻 Today, we'll explore more about static site generation with Jekyll, building on from yesterday's stream. Watch a backend engineer navigate the intriguing world of frontend engineering. Don’t miss out on this opportunity to make fun of me, ask your burning questions, and most importantly, learn something new.
 post_image: /images/blog-posts/2024-01-07.jpg
