@@ -4,28 +4,25 @@ permalink: /jekyll-in-action-frontend-development-for-backend-engineers/
 layout: post
 description: A live coding session where we dive into a Jekyll website and frontend development from a backend engineer's perspective. 🚀👨‍💻 Today, we'll explore more about static site generation with Jekyll, building on from yesterday's stream. Watch a backend engineer navigate the intriguing world of frontend engineering. Don’t miss out on this opportunity to make fun of me, ask your burning questions, and most importantly, learn something new.
 post_image: /images/blog-posts/2024-01-07.jpg
+yt_tags: Jekyll, CloudflarePages, DevOps, DevOpsDave
 ---
 
 <div class="content-wrapper">
     <h1>About</h1>
         <p class="top-margin-blog-post">
-        Join us on DevOps Dave for a live coding session where we dive into a Jekyll website and frontend development from a backend engineer's perspective. 🚀👨‍💻 Today, we'll explore more about static site generation with Jekyll, building on from yesterday's stream. Watch a backend engineer navigate the intriguing world of frontend engineering. Don’t miss out on this opportunity to make fun of me, ask your burning questions, and most importantly, learn something new.
+          Join us on DevOps Dave for a live coding session where we dive into a Jekyll website and frontend development from a backend engineer's perspective. 🚀👨‍💻 Today, we'll explore more about static site generation with Jekyll, building on from yesterday's stream. Watch a backend engineer navigate the intriguing world of frontend engineering. Don’t miss out on this opportunity to make fun of me, ask your burning questions, and most importantly, learn something new.
         </p>
-        
         <p class="top-margin-blog-post">
-        🔔💡 Remember to hit that subscribe button and turn on notifications so you never miss a live stream! Also, drop your comments below with any questions you have or topics you'd like to see in future streams. Your feedback is what shapes our content, so let's make this interactive and fun!
+          🔔💡 Remember to hit that subscribe button and turn on notifications so you never miss a live stream! Also, drop your comments below with any questions you have or topics you'd like to see in future streams. Your feedback is what shapes our content, so let's make this interactive and fun!
         </p>
-        
         <p class="top-margin-blog-post">
-        #DevOps #DevOpsDave
+          #DevOps #DevOpsDave
         </p>
-
         <p class="top-margin-blog-post">
-        <a href="https://DevOpsDave.net">https://DevOpsDave.net</a>
+          <a href="https://DevOpsDave.net">https://DevOpsDave.net</a>
         </p>
-        
         <p class="top-margin-blog-post">
-        <a href="https://dave-albert.com">https://dave-albert.com</a>
+          <a href="https://dave-albert.com">https://dave-albert.com</a>
         </p>
 </div>
 

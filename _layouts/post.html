@@ -14,6 +14,18 @@ layout: default
   <h1 class="pageTitle">{{ page.title }}</h1>
   <span class="postDate">{{ page.date | date: "%b %-d, %Y" }}</span>
   {{ content }}
+  <div class="post content-indent">
+    <p class="yt-tags-wrapper">
+      {% if page.yt_tags %}
+      {% assign tags = page.yt_tags | split: ", " %}
+      {% for tag in tags %}
+      <span class="tag yt-tag">
+        <a href="https://www.youtube.com/hashtag/{{ tag | slugify }}" target="_blank">#{{ tag }}</a>
+      </span>
+      {% endfor %}
+      {% endif %}
+    </p>
+  </div>
   {% for post in site.posts %}
   {% if post.url != page.url %}
   <div class="post">
@@ -22,5 +34,4 @@ layout: default
   </div>
   {% endif %}
   {% endfor %}
-    
 </div>
