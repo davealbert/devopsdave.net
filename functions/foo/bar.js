@@ -1,19 +1,19 @@
 export async function onRequestPost(context) {
-    // recive a json post request
-    const request = context.request;
-    const body = request.body;
-
     try {
+      const json = await context.request.json()
       const env = context.env;
       const zipzap = await env.KV_SANDBOX.get("zipzap", "text");
+
       console.log("zipzap --> ");
       console.log(zipzap);
-      console.log("context -->");
-      console.log(context);
-      console.log(JSON.stringify(context));
 
-      if (zipzap !== null && zipzap === body.zipzap && body.zipzap !== "") {
-        await env.KV_SANDBOX.put("last_video", JSON.stringify(body));
+      console.log("json -->");
+      console.log(json);
+
+      console.log(JSON.stringify(json));
+
+      if (zipzap !== null && zipzap === json.zipzap && json.zipzap !== "") {
+        await env.KV_SANDBOX.put("last_video", JSON.stringify(json));
         return new Response(JSON.stringify({status: "ok"}), { status: 200, headers: { 'Content-Type': 'application/json' } });
       }
     } catch (error) {
