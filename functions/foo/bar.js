@@ -4,9 +4,14 @@ export async function onRequest(context) {
     const body = request.body;
 
     try {
-      const json = JSON.parse(body);
       const env = context.env;
       const zipzap = await env.KV_SANDBOX.get("zipzap", "text");
+      console.log("zipzap --> ");
+      console.log(zipzap);
+      console.log("body -->");
+      console.log(body);
+
+      const json = JSON.parse(body);
       console.log(json);
 
       if (zipzap !== null && zipzap === json.zipzap && json.zipzap !== "") {
