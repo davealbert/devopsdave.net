@@ -9,11 +9,10 @@ export async function onRequest(context) {
       console.log("zipzap --> ");
       console.log(zipzap);
       console.log("body -->");
-      console.log(body);
+      console.log(JSON.stringify(body));
 
       if (zipzap !== null && zipzap === body.zipzap && body.zipzap !== "") {
-        // save json to KV store with key last video
-        await env.KV_SANDBOX.put("last_video", body);
+        await env.KV_SANDBOX.put("last_video", JSON.stringify(body));
         return new Response(JSON.stringify({status: "ok"}), { status: 200, headers: { 'Content-Type': 'application/json' } });
       }
     } catch (error) {
