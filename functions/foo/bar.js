@@ -8,8 +8,9 @@ export async function onRequestPost(context) {
       const zipzap = await env.KV_SANDBOX.get("zipzap", "text");
       console.log("zipzap --> ");
       console.log(zipzap);
-      console.log("body -->");
-      console.log(JSON.stringify(body));
+      console.log("context -->");
+      console.log(context);
+      console.log(JSON.stringify(context));
 
       if (zipzap !== null && zipzap === body.zipzap && body.zipzap !== "") {
         await env.KV_SANDBOX.put("last_video", JSON.stringify(body));
