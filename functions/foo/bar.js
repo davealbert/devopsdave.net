@@ -3,16 +3,9 @@ export async function onRequestPost(context) {
       const json = await context.request.json()
       const env = context.env;
       const zipzap = await env.KV_SANDBOX.get("zipzap", "text");
-
-      console.log("zipzap --> ");
-      console.log(zipzap);
-
-      console.log("json -->");
-      console.log(json);
-
-      console.log(JSON.stringify(json));
-
       if (zipzap !== null && zipzap === json.zipzap && json.zipzap !== "") {
+        delete json.zipzap;
+        console.log(json);
         await env.KV_SANDBOX.put("last_video", JSON.stringify(json));
         return new Response(JSON.stringify({status: "ok"}), { status: 200, headers: { 'Content-Type': 'application/json' } });
       }
