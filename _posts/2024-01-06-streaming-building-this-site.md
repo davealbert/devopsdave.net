@@ -1,7 +1,9 @@
 ---
 layout: post
 title: "I lived stream the building of this site"
-description: "Live stream of building this site with Jekyll and Cloudflare Pages"
+description: "Live stream of building this site with Jekyll and Cloudflare Pages. I streamed to Kick and YouTube today to build this amazing website. It's built with Jekyll and hosted with Cloudflare Pages.
+
+"
 post_image: /images/blog-posts/2024-01-06.jpg
 yt_tags: Jekyll, CloudflarePages, DevOps, DevOpsDave
 ---

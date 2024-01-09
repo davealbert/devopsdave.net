@@ -40,24 +40,18 @@ post_image: /images/blog-posts/2024-01-08.jpg
         <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled">Fix blog post list items</li>
     </ul>
 </div>
-
-
 <div class="content-wrapper">
     <h1>The Streams</h1>
-
     <div class="embed-wrapper">
         <div class="embed-title"><h1>Kick</h1></div>
-
         <div class="embed">
             <a href="https://kick.com/video/3041ad48-4acb-4195-83be-4f2a7bb49867" target="_blank">
                 <img src="https://images.kick.com/video_thumbnails/QXi6QSVtOH5v/Oa0sJc2x9iRo/360.webp">
             </a>
         </div>
     </div>
-
     <div class="embed-wrapper">
         <div class="embed-title"><h1>YouTube</h1></div>
-
         <div class="embed">
             <iframe width="560" height="315" src="https://www.youtube.com/embed/svTcLxZSUYo?si=UXEzlxwkNzWwA5OQ&amp;start=106" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
         </div>
