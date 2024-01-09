@@ -11,10 +11,7 @@ export async function onRequest(context) {
       console.log("body -->");
       console.log(body);
 
-      const json = JSON.parse(body);
-      console.log(json);
-
-      if (zipzap !== null && zipzap === json.zipzap && json.zipzap !== "") {
+      if (zipzap !== null && zipzap === body.zipzap && body.zipzap !== "") {
         // save json to KV store with key last video
         await env.KV_SANDBOX.put("last_video", body);
         return new Response(JSON.stringify({status: "ok"}), { status: 200, headers: { 'Content-Type': 'application/json' } });

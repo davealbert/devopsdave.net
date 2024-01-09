@@ -9,6 +9,10 @@ layout: default
                 <img src="/images/sre-hero.jpg" />
             </div>
         </div>
+        <!-- <h1>Stream Status</h1>
+        <div class="content-wrapper">
+        <iframe width="396" height="247" src="https://www.youtube.com/embed/live_stream?channel=UCuZgVpvUQq66jIHsVOCh6Tw" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div> -->
         <h1>Discovering the Art of DevOps, Engineering, and Beyond</h1>
         <div class="content-wrapper">
             I'm Dave, a seasoned professional with a dynamic career spanning DevOps Engineering, Platform Engineering, Site Reliability Engineering, and Software Development. This experiance included a stint as the CTO and co-founder of a startup. My journey through the tech world has been nothing short of an adventure, filled with learning, growth, and a constant drive to innovate.
