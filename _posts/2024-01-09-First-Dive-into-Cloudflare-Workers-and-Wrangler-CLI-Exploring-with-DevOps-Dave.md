@@ -41,5 +41,3 @@ post_image: /images/blog-posts/2024-01-09.jpg
         </div>
     </div>
 </div>
-
-
