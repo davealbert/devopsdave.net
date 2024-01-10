@@ -1,4 +1,8 @@
 export async function onRequestPost(context) {
+  return new Response(JSON.stringify({status: "ok"}), { status: 200, headers: { 'Content-Type': 'application/json' } });
+}
+
+export async function onRequestPost(context) {
     try {
       const json = await context.request.json()
       const env = context.env;
