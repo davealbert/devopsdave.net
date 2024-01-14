@@ -32,7 +32,7 @@ Deep-Dive-into-JWT-and-Cloudflare-D1-Database-Integration
     <div class="embed-wrapper">
         <div class="embed-title"><h1>YouTube</h1></div>
         <div class="embed">
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/bKar6QAjgAo?si=Axhw0J0dvMHARWZz&amp;start=78" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/R-JvLdnUvTc?si=965UF_kcjZlav3C2&amp;start=69" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
         </div>
     </div>
 </div>
