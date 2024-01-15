@@ -5,8 +5,6 @@ yt_tags: JWTImplementation, CloudflareD1, ServerlessArchitecture, DevOpsDave, Da
 post_image: /images/blog-posts/2024-01-14.jpg
 ---
 
-Deep-Dive-into-JWT-and-Cloudflare-D1-Database-Integration
-
 <div class="content-wrapper">
     <h1>About</h1>
     <p class="top-margin-blog-post">
