@@ -31,15 +31,15 @@ post_image: /images/blog-posts/2024-01-19.jpg
     <div class="embed-wrapper">
         <div class="embed-title"><h1>Kick</h1></div>
         <div class="embed">
-            <a href="https://kick.com/video/1c08cfb9-1982-4c5f-957a-b3fe298eeff7" target="_blank">
-                <img src="https://images.kick.com/video_thumbnails/QXi6QSVtOH5v/VOdbKR4VS0SS/360.webp">
+            <a href="https://kick.com/video/32166377-7e5d-4951-a9b1-b33cee6ed99b" target="_blank">
+                <img src="https://images.kick.com/video_thumbnails/QXi6QSVtOH5v/vqyAPMUR7A68/360.webp">
             </a>
         </div>
     </div>
     <div class="embed-wrapper">
         <div class="embed-title"><h1>YouTube</h1></div>
         <div class="embed">
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/rARf_sWtIVY?si=U_Iabq45MVeVNOti&amp;start=78" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/yOFc5XQzTdE?si=TJyK9iwplfnV38hn&amp;start=152" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
         </div>
     </div>
 </div>
