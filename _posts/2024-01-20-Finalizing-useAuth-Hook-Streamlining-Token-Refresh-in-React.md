@@ -45,7 +45,7 @@ post_image: /images/blog-posts/2024-01-20.jpg
         <div class="embed-wrapper">
         <div class="embed-title"><h1>Twitch</h1></div>
         <div class="embed">
-            <iframe src="https://player.twitch.tv/?video=2038089182&parent=devopsdave.net" frameborder="0" allowfullscreen="true" scrolling="no" height="378" width="620"></iframe>
+            <iframe src="https://player.twitch.tv/?video=2038089182&parent=devopsdave.net" frameborder="0" autoplay="false" allowfullscreen="true" scrolling="no" height="378" width="620"></iframe>
         </div>
     </div>
 </div>
