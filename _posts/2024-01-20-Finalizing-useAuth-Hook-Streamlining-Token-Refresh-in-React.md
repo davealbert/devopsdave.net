@@ -1,7 +1,7 @@
 ---
 layout: post
 description: In today's live stream, we finalized the `useAuth` React hook, enhancing our application's authentication flow. We meticulously coded and refined the process of handling token refreshes, ensuring seamless and secure user sessions in our React app. This session provided in-depth knowledge and practical strategies for managing authentication state effectively in modern web applications.
-yt_tags:
+yt_tags: ReactHooks useAuth TokenRefresh JWTAuthentication DevOpsDave FullStackDevelopment SecureCoding CodingLive WebSecurity CloudflareAPI
 post_image: /images/blog-posts/2024-01-20.jpg
 ---
 
