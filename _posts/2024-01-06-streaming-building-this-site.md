@@ -12,7 +12,7 @@ yt_tags: Jekyll, CloudflarePages, DevOps, DevOpsDave
 <div class="content-wrapper">
     <h1>About</h1>
     <p>
-        I streamed to Kick and YouTube today to build this amazing website. It's built with Jekyll and hosted with Cloudflare Pages.
+        I streamed to Kick, Twitch and YouTube today to build this amazing website. It's built with Jekyll and hosted with Cloudflare Pages.
     </p>
 </div>
 

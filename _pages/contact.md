@@ -17,6 +17,9 @@ hero_image: /images/hero-contact.jpg
         <p>
             <a href="https://kick.com/devopsdave" target="_blank"><i class="fa-fw fa-brands fa-kickstarter-k"></i> Kick</a><br />
         </p>
+        <p>
+            <a href="https://www.twitch.tv/devopsdave" target="_blank"><i class="fa-fw fa-brands fa-twitch"></i> Twitch</a><br />
+        </p>
     </div>
 </div>
 
@@ -61,7 +64,7 @@ hero_image: /images/hero-contact.jpg
 
 
 <script type="text/javascript">
-    window.shouldrun = function() {        
+    window.shouldrun = function() {
         // const urlParams = new URLSearchParams(window.location.search);
         // const contact_form_flag = urlParams.get('flag', false);
         // if (contact_form_flag) {

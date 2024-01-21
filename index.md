@@ -13,6 +13,13 @@ layout: default
         <div class="content-wrapper">
         <iframe width="396" height="247" src="https://www.youtube.com/embed/live_stream?channel=UCuZgVpvUQq66jIHsVOCh6Tw" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </div> -->
+            <h1>Latest News</h1>
+            {% for post in site.posts limit:1 %}
+                <div class="content-wrapper">
+                    <a href="{{ post.url }}">{{ post.title }}</a>
+                    <p>{{ post.description }}</p>
+                </div>
+            {% endfor %}
         <h1>Discovering the Art of DevOps, Engineering, and Beyond</h1>
         <div class="content-wrapper">
             I'm Dave, a seasoned professional with a dynamic career spanning DevOps Engineering, Platform Engineering, Site Reliability Engineering, and Software Development. This experiance included a stint as the CTO and co-founder of a startup. My journey through the tech world has been nothing short of an adventure, filled with learning, growth, and a constant drive to innovate.
@@ -21,7 +28,7 @@ layout: default
         <div class="content-wrapper">
             <p>I began my career as a Network Administrator/IT Manager/Software Developer, fascinated by the power of code to transform ideas into reality. As I delved deeper into the tech realm, I expanded my expertise into the realms of DevOps and Platform Engineering, discovering the intricate dance of maintaining robust, scalable systems. My foray into Site Reliability Engineering further deepened my appreciation for system resilience and the critical balance between operational efficiency and innovative development.</p>
             <p>&nbsp;</p>
-            <p>Throughout my career, I've learned that technology is not just about systems and code; it's about the people who use it and the communities that grow around it. That's why I'm thrilled to be streaming on Kick and YouTube while expanding my YouTube channel, focusing on the interplay of technology, education, and community building.</p>
+            <p>Throughout my career, I've learned that technology is not just about systems and code; it's about the people who use it and the communities that grow around it. That's why I'm thrilled to be streaming on Kick, Twitch and YouTube while expanding my YouTube channel, focusing on the interplay of technology, education, and community building.</p>
         </div>
         <h1>What Awaits You Here</h1>
         <div class="content-wrapper">
@@ -47,7 +54,14 @@ layout: default
         </div>
         <h1>Join the Community</h1>
         <div class="content-wrapper">
-            I invite you to subscribe/follow my <a href="https://www.youtube.com/@devopsdave" target="_blank">YouTube</a> channel and/or my <a href="https://kick.com/devopsdave" target="_blank">Kick</a> channel and join our growing <a href="https://DevOpsDave.net/discord" target="_blank">Discord</a>.
+            I invite you to join our growing <a href="https://DevOpsDave.net/discord" target="_blank">Discord</a> and subscribe/follow me on your plaform(s) of choice:
+            <div class="embed-wrapper">
+                <ul>
+                    <li><a href="https://www.youtube.com/@devopsdave" target="_blank">YouTube</a></li>
+                    <li><a href="https://www.twitch.tv/devopsdave" target="_blank">Twitch</a></li>
+                    <li><a href="https://kick.com/devopsdave" target="_blank">Kick</a></li>
+                </ul>
+            </div>
         </div>
     </div>
 </div>
