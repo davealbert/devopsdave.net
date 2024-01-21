@@ -13,10 +13,20 @@ layout: default
         <div class="content-wrapper">
         <iframe width="396" height="247" src="https://www.youtube.com/embed/live_stream?channel=UCuZgVpvUQq66jIHsVOCh6Tw" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </div> -->
-            <h1>Latest News</h1>
+            <h1>Latest Stream/News</h1>
             {% for post in site.posts limit:1 %}
                 <div class="content-wrapper">
-                    <a href="{{ post.url }}">{{ post.title }}</a>
+                    <a href="{{ post.url }}">{{ post.title }}
+                    <div class="index-image-wrapper">
+                        <div class="post-image">
+                        {% if post.post_image %}
+                        <img src="{{ post.post_image }}" />
+                        {% else %}
+                        <img src="/images/blog-default-image.jpg" />
+                        {% endif %}
+                        </div>
+                    </div>
+                    </a>
                     <p>{{ post.description }}</p>
                 </div>
             {% endfor %}
@@ -65,4 +75,3 @@ layout: default
         </div>
     </div>
 </div>
-
